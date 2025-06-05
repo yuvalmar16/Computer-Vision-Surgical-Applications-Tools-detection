@@ -50,7 +50,7 @@ This will:
 - Predict on the OOD videos with visualization.
 (Note that you can change the number of epochs to your liking, it is set in the main.py file.)
 
-A link to the final model weights I used - [best.pt] ([https://drive.google.com/file/d/1ikFNuP6OKctOnAODgeUitsjJUWMow2XJ/view?usp=sharing](https://github.com/yuvalmar16/Computer-Vision-Surgical-Applications-Tools-detection/blob/main/best.pt))
+A link to the final model weights I used - [best.pt] (https://github.com/yuvalmar16/Computer-Vision-Surgical-Applications-Tools-detection/blob/main/best.pt)
 
 ### 2. Predicting on Images
 
