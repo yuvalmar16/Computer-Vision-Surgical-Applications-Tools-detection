@@ -57,38 +57,21 @@ A link to the final model weights I used - [model_finetuned.pt](https://drive.go
 To run predictions on images:
 
 ```sh
-python predict.py -i <image_path> -c <confidence_level>
+python predict.py 
 ```
-
-or
-
-```sh
-python predict.py -d <images_folder> -c <confidence_level>
-```
-
-Note that the -c parameter is optional, and if not specified, the default value is 0.8.
 
 ### 3. Predicting on Videos
 
 To run predictions on videos:
 
 ```sh
-python video.py -v <video_path> -c <confidence_level>
+python video.py 
 ```
-
-or
-
-```sh
-python video.py -d <videos_folder> -c <confidence_level>
-```
-
-Note that the -c parameter is optional, and if not specified, the default value is 0.7.
 
 ## File Descriptions
 
-- **yaml_files/id.yaml**: Configuration for the In-Distribution dataset.
-- **yaml_files/train_labeled.yaml**: Configuration for the labeled image data.
-- **main.py**: Main script to control the workflow.
+- **yaml_files/surgical_pesudo.yaml**: Configuration for the pesudo-labeled In-Distribution dataset with the labeled image data.
+- **yaml_files/only_labeled.yaml**: Configuration for the labeled image data.
 - **predict.py**: Script for running predictions on images.
 - **train.py**: Contains training and fine-tuning functions.
 - **video.py**: Script for running predictions on videos.
